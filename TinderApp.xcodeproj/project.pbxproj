@@ -13,6 +13,10 @@
 		D32763E51AA7DA350040FDCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32763E41AA7DA350040FDCC /* Images.xcassets */; };
 		D32763E81AA7DA350040FDCC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32763E61AA7DA350040FDCC /* LaunchScreen.xib */; };
 		D32763F41AA7DA350040FDCC /* TinderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32763F31AA7DA350040FDCC /* TinderAppTests.swift */; };
+		D32763FE1AA7DB060040FDCC /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32763FD1AA7DB060040FDCC /* CardsViewController.swift */; };
+		D32764001AA8279F0040FDCC /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32763FF1AA8279F0040FDCC /* DraggableImageView.xib */; };
+		D32764021AA827B30040FDCC /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32764011AA827B30040FDCC /* DraggableImageView.swift */; };
+		D32764041AA82C6F0040FDCC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32764031AA82C6F0040FDCC /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		D32763ED1AA7DA350040FDCC /* TinderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32763F21AA7DA350040FDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D32763F31AA7DA350040FDCC /* TinderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderAppTests.swift; sourceTree = "<group>"; };
+		D32763FD1AA7DB060040FDCC /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		D32763FF1AA8279F0040FDCC /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		D32764011AA827B30040FDCC /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		D32764031AA82C6F0040FDCC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				D32763E41AA7DA350040FDCC /* Images.xcassets */,
 				D32763E61AA7DA350040FDCC /* LaunchScreen.xib */,
 				D32763DB1AA7DA350040FDCC /* Supporting Files */,
+				D32763FD1AA7DB060040FDCC /* CardsViewController.swift */,
+				D32764031AA82C6F0040FDCC /* ProfileViewController.swift */,
+				D32763FF1AA8279F0040FDCC /* DraggableImageView.xib */,
+				D32764011AA827B30040FDCC /* DraggableImageView.swift */,
 			);
 			path = TinderApp;
 			sourceTree = "<group>";
@@ -194,6 +206,7 @@
 			files = (
 				D32763E31AA7DA350040FDCC /* Main.storyboard in Resources */,
 				D32763E81AA7DA350040FDCC /* LaunchScreen.xib in Resources */,
+				D32764001AA8279F0040FDCC /* DraggableImageView.xib in Resources */,
 				D32763E51AA7DA350040FDCC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +227,9 @@
 			files = (
 				D32763E01AA7DA350040FDCC /* ViewController.swift in Sources */,
 				D32763DE1AA7DA350040FDCC /* AppDelegate.swift in Sources */,
+				D32764041AA82C6F0040FDCC /* ProfileViewController.swift in Sources */,
+				D32764021AA827B30040FDCC /* DraggableImageView.swift in Sources */,
+				D32763FE1AA7DB060040FDCC /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
